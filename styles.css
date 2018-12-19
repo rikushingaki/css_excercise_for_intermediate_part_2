@@ -4,9 +4,9 @@
  * - 背景色を #cccccc とする
  */
  body {
-     width:760px;
+     width: 760px;
      margin: 0 auto;
-     background-color:#cccccc;
+     background-color: #cccccc;
  }
 
 
@@ -14,7 +14,7 @@
  * - 見出し(h1)は中央揃えにしてください
  */
  h1 {
-     text-align:center;
+     text-align: center;
  }
 
 
@@ -49,13 +49,13 @@
  .picture{
      width: 243px;
      margin: 0px 5px 10px 5px;
-     background-color:#ffffff;
+     background-color: #ffffff;
  }
 /**
  * - 画像タイトルは中央寄せにして
  * - デフォルトの文字サイズを100%として、80%の大きさにする
  */
- .picture-title{
+ .picture-title {
      text-align: center;
      font-size: 80%;
  }
@@ -65,6 +65,6 @@
 /**
  * フレックスアイテム内の画像は親要素の横幅と同じにする(%を使った書き方で記述する)
  */
- .picture img{
-     width:100%;
+ .picture img {
+     width: 100%;
  }
